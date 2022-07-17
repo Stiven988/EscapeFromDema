@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Roboto+Mono:wght@100;300;500;600&display=swap');
+
+/* fonts family
+font-family: 'Courier Prime', monospace;
+font-family: 'Roboto Mono', monospace; */
+
+html, body {
+    font-size: 12px;
+    margin: 0;
+    padding: 10px;
+    font-family: Courier, Lucida Sans Typewriter, Lucida;
+    font-weight: 600;
+    letter-spacing: .15em;
+}
+.texto {
+    font-size: 12.3px;
+}
+.title {
+    text-align: center;
+}
