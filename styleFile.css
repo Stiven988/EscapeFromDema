@@ -6,3 +6,8 @@ html, body {
     font-weight: 600;
     letter-spacing: .15em;
 }
+
+.DEMAFORPAGE, .DEMAFORPAGE2, .DEMAFORPAGE3 {
+    width: 100%;
+    height: auto;
+}
