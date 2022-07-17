@@ -1,0 +1,116 @@
+html, body {
+    font-size: 12px;
+    margin: 0;
+    padding: 10px;
+    font-family: Courier, Lucida Sans Typewriter, Lucida;
+    font-weight: 600;
+    letter-spacing: .15em;
+}
+/* From uiverse.io by @alexruix */
+.card {
+    display: inline-block;
+    border-radius: 20px;
+    grid-gap: 30px;
+    width: 240px;
+    height: 450px;
+    background: #f5f5f5;
+    padding: 2rem 1.5rem;
+    transition: box-shadow .3s ease, transform .2s ease;
+}
+   
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform .2s ease, opacity .2s ease;
+}
+   
+/*Image*/
+.card-avatar, .avatar {
+    border-radius: 20%;
+    transition: transform .2s ease;
+    margin-bottom: 1rem;
+}
+
+
+/*Card footer*/
+.card-social {
+    transform: translateY(200%);
+    display: flex;
+    place-content: center;
+    justify-content: space-evenly;
+    width: auto;
+    opacity: 0;
+    transition: transform .2s ease, opacity .2s ease;
+}
+
+.card-social__item {
+    list-style: none;
+}
+
+.card-social__item svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: -40px;
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    fill: #515F65;
+    cursor: pointer;
+    transition: fill 0.2s ease ,transform 0.2s ease;
+}
+
+/*Text*/
+.card-title {
+    color: #333;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.card-subtitle {
+    color: #859ba8;
+    font-size: 12px;
+}
+
+.card-texto {
+    color: #333;
+    font-size: 12px;
+}
+
+.footer {
+    color: #333;
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 90px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+/*Hover*/
+.card:hover {
+    box-shadow: 0 8px 50px #23232333;
+}
+
+.card:hover .card-info {
+    transform: translateY(-5%);
+}
+
+.card:hover .card-social {
+    transform: translateY(100%);
+    opacity: 1;
+}
+
+.card-social__item svg:hover {
+    fill: #232323;
+    transform: scale(1.1);
+}
+
+.card-avatar:hover {
+    transform: scale(1.1);
+}
