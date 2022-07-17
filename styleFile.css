@@ -1,4 +1,6 @@
 html, body {
+    text-align: center;
+    margin: auto;
     font-size: 12px;
     margin: 0;
     padding: 10px;
