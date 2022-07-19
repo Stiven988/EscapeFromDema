@@ -1,4 +1,6 @@
 html, body {
+    text-align: center;
+    margin: auto;
     font-size: 12px;
     margin: 0;
     padding: 10px;
@@ -6,6 +8,7 @@ html, body {
     font-weight: 600;
     letter-spacing: .15em;
 }
+
 /* From uiverse.io by @alexruix */
 .card {
     display: inline-block;
