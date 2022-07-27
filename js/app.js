@@ -4,4 +4,5 @@ function accionPlay() {
 
 window.onload = function() {
     accionPlay();
+    console.log("DEMA DON'T CONTROL");
 }
